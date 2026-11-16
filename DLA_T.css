@@ -76,12 +76,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
 }
 .info-item.medal img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 4px;
 }
 .info-item i,
 .info-item .fecha {
