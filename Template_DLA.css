@@ -29,10 +29,10 @@
 .side-bx {
   position: absolute;
   top: 16px;
-  right: -68px;
+  right: -95px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 8px;
   z-index: 5;
 }
 .tit-bx {
