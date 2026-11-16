@@ -4,44 +4,44 @@
     margin: 20px auto;
     padding: 12px;
     box-sizing: border-box;
-    border: 1px solid var(--grupo-color,var(--color-group,#3a3a3a));
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
     border-radius: 8px;
     background: transparent;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: inherit;
     position: relative;
     overflow: visible;
 }
 
-.baul .baul-nombre {
+.baul-nombre {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
     padding: 14px 5px 18px;
-    color: var(--grupo-color,var(--color-group,#3a3a3a));
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
     text-transform: uppercase;
 }
 
-.baul .baul-linea {
+.baul-linea {
     width: 100%;
     height: 1px;
-    background: var(--grupo-color,var(--color-group,#3a3a3a));
-    opacity: .45;
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
+    opacity: 0.45;
     margin-bottom: 10px;
 }
 
-.baul .baul-imagen {
+.baul-imagen {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    border: 1px solid var(--grupo-color,var(--color-group,#3a3a3a));
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
     box-sizing: border-box;
     position: relative;
     margin: 14px 0 12px;
 }
 
-.baul .baul-imagen img {
+.baul-imagen img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -51,7 +51,7 @@
     padding: 0;
 }
 
-.baul .baul-datos {
+.baul-datos {
     position: absolute !important;
     top: 50% !important;
     right: 10px !important;
@@ -64,10 +64,10 @@
     z-index: 10 !important;
 }
 
-.baul .baul-dato {
+.baul-dato {
     width: 100%;
     min-height: 43px;
-    background: var(--grupo-color,var(--color-group,#3a3a3a));
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
     padding: 7px 9px;
     box-sizing: border-box;
     display: flex !important;
@@ -77,53 +77,53 @@
     color: #fff;
 }
 
-.baul .baul-dato .baul-icono {
+.baul-icono {
     flex: 0 0 27px;
     width: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+}
+
+.baul-icono i {
     font-size: 20px;
     line-height: 1;
     color: #fff;
 }
 
-.baul .baul-dato .baul-icono i {
-    font-size: 20px;
-    line-height: 1;
-    color: #fff;
-}
-
-.baul .baul-dato span {
+.baul-dato span:last-child {
     font-size: 9px;
     font-weight: bold;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     overflow-wrap: anywhere;
     color: #fff;
 }
 
-.baul .separador {
+.separador {
     width: 100%;
     height: 1px;
-    background: var(--grupo-color,var(--color-group,#3a3a3a));
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
     margin: 14px auto;
-    opacity: .4;
+    opacity: 0.4;
 }
 
-.baul .firma {
+.firma {
     text-align: center;
     font-size: 14px;
     color: inherit;
     letter-spacing: 1px;
     margin-top: 16px;
-    opacity: .9;
+    opacity: 0.9;
 }
 
-.baul .firma a {
+.firma a {
     color: inherit;
     text-decoration: none;
 }
 
-.baul .firma i {
-    color: var(--grupo-color,var(--color-group,#5ec8d8));
+.firma i {
+    color: var(--grupo-color, var(--color-group, #5ec8d8));
     font-size: 16px;
 }
