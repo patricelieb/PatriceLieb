@@ -66,10 +66,10 @@
   border-radius: 6px;
 }
 .info-item.medal {
-  width: 64px;
-  height: 64px;
+  width: 46px;
+  height: 46px;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .info-item.medal img {
   width: 100%;
