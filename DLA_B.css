@@ -87,7 +87,8 @@
 /* RECUADROS LATERALES */
 
 .baul-fecha,
-.baul-extra {
+.baul-extra,
+.baul-extra2 {
     position: absolute;
     right: -55px;
     width: 46px;
@@ -110,17 +111,24 @@
     top: 70px;
 }
 
+.baul-extra2 {
+    top: 124px;
+}
+
 .baul-fecha a,
-.baul-extra a {
+.baul-extra a,
+.baul-extra2 a {
     display: flex;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.baul-fecha img,
-.baul-extra img {
+.baul-fecha img {
     width: 24px;
     height: 24px;
     object-fit: contain;
