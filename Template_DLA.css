@@ -29,7 +29,7 @@
 .side-bx {
   position: absolute;
   top: 16px;
-  right: -95px;
+  right: -78px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -64,11 +64,6 @@
   position: relative;
   cursor: pointer;
   border-radius: 6px;
-  transition: all 0.2s ease;
-}
-.info-item:hover {
-  background: rgba(0,0,0,0.04);
-  transform: translateY(-1px);
 }
 .info-item.medal {
   width: 64px;
