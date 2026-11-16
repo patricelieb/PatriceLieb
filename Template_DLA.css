@@ -1,4 +1,4 @@
-.pl-tipo-top {
+.tipo-top {
   background: transparent;
   border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
   padding: 8px;
@@ -7,13 +7,13 @@
   border-bottom: none;
   border-radius: 8px 8px 0 0;
 }
-.pl-tipo {
+.tipo {
   font-size: 11px;
   color: inherit;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.pl-card-bx {
+.card-bx {
   position: relative;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +26,7 @@
   border-radius: 0 0 8px 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-.pl-side-bx {
+.side-bx {
   position: absolute;
   top: 16px;
   right: -78px;
@@ -35,7 +35,7 @@
   gap: 8px;
   z-index: 5;
 }
-.pl-tit-bx {
+.tit-bx {
   text-align: center;
   font-size: 26px;
   letter-spacing: 1.5px;
@@ -44,7 +44,7 @@
   color: var(--grupo-color, var(--color-group, #5ec8d8));
   font-weight: 700;
 }
-.pl-subtit-bx {
+.subtit-bx {
   text-align: center;
   font-size: 11px;
   color: inherit;
@@ -53,7 +53,7 @@
   font-style: italic;
   opacity: 0.75;
 }
-.pl-info-item {
+.info-item {
   width: 46px;
   height: 46px;
   background: transparent;
@@ -65,27 +65,27 @@
   cursor: pointer;
   border-radius: 6px;
 }
-.pl-info-item.medal {
+.info-item.medal {
   width: 64px;
   height: 64px;
   overflow: hidden;
   border-radius: 8px;
 }
-.pl-info-item.medal img {
+.info-item.medal img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-.pl-info-item i,
-.pl-info-item .fecha {
+.info-item i,
+.info-item .fecha {
   font-size: 11px;
   color: var(--grupo-color, var(--color-group, #5ec8d8));
   font-weight: bold;
   text-align: center;
   line-height: 1.1;
 }
-.pl-info-item .popup {
+.info-item .popup {
   display: none;
   position: absolute;
   right: 56px;
@@ -100,10 +100,10 @@
   border-radius: 4px;
   font-size: 11px;
 }
-.pl-info-item:hover .popup {
+.info-item:hover .popup {
   display: block;
 }
-.pl-img-main {
+.img-main {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -112,14 +112,14 @@
   border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
   border-radius: 0;
 }
-.pl-separador {
+.separador {
   width: 100%;
   height: 1px;
   background: var(--grupo-color, var(--color-group, #3a3a3a));
   margin: 14px auto;
   opacity: 0.4;
 }
-.pl-txt-bx {
+.txt-bx {
   background: transparent;
   border: none;
   padding: 10px 6px;
@@ -130,7 +130,7 @@
   box-sizing: border-box;
   text-align: justify;
 }
-.pl-firma {
+.firma {
   text-align: center;
   font-size: 14px;
   color: inherit;
@@ -138,11 +138,11 @@
   margin-top: 16px;
   opacity: 0.9;
 }
-.pl-firma a {
+.firma a {
   color: inherit;
   text-decoration: none;
 }
-.pl-firma i {
+.firma i {
   color: var(--grupo-color, var(--color-group, #5ec8d8));
   font-size: 16px;
 }
