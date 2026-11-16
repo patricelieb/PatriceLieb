@@ -107,7 +107,6 @@
     right: -55px;
     width: 46px;
     height: 46px;
-    background: transparent;
     border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
     border-radius: 6px;
     display: flex;
@@ -115,8 +114,12 @@
     justify-content: center;
     box-sizing: border-box;
     z-index: 20;
-    color: var(--grupo-color, var(--color-group, #5ec8d8));
-    font-size: 22px;
+}
+
+.baul-fecha img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
 }
 
 .separador {
