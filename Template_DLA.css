@@ -65,6 +65,9 @@
   cursor: pointer;
   border-radius: 6px;
 }
+.info-item.fecha {
+  cursor: default;
+}
 .info-item.medal {
   width: 46px;
   height: 46px;
