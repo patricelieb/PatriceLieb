@@ -155,9 +155,3 @@
   color: var(--grupo-color, var(--color-group, #5ec8d8));
   font-size: 16px;
 }
-.hide, .spoiler, [class*="hide"] {
-  color: #000 !important;
-}
-.hide *, .spoiler *, [class*="hide"] * {
-  color: #000 !important;
-}
