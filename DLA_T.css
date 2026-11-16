@@ -155,7 +155,16 @@
   color: var(--grupo-color, var(--color-group, #5ec8d8));
   font-size: 16px;
 }
-.hide {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+.txt-bx .hide,
+.txt-bx .hidecode,
+.txt-bx [class*="hide"] {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+    line-height: inherit !important;
+}
+
+.txt-bx .hide br,
+.txt-bx .hidecode br {
+    display: none !important;
 }
