@@ -15,6 +15,7 @@
     text-align: center;
     letter-spacing: 2px;
     padding: 5px;
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
 }
 
 .baul-linea {
