@@ -135,3 +135,74 @@
     object-fit: contain;
     display: block;
 }
+
+
+.cronologia {
+    width: 480px;
+    max-width: 100%;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.cronologia-nombre {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px;
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+}
+
+.cronologia-linea {
+    width: 100%;
+    height: 1px;
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
+    margin: 8px 0 12px;
+}
+
+.cronologia-scroll {
+    height: 190px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+
+.cronologia-bloque {
+    margin-bottom: 14px;
+}
+
+.cronologia-mes {
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    margin-bottom: 5px;
+}
+
+.cronologia-tema {
+    font-size: 11px;
+    line-height: 1.6;
+    padding: 3px 5px;
+}
+
+.cronologia-tema a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.cronologia-tema a:hover {
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+}
+
+.cronologia-firma {
+    text-align: center;
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+    font-size: 13px;
+    margin-top: 12px;
+}
