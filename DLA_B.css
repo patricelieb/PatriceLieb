@@ -8,8 +8,6 @@
     border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
     border-radius: 8px;
     background: transparent;
-    position: relative;
-    overflow: visible;
     font-family: Arial, Helvetica, sans-serif;
     color: inherit;
 }
@@ -35,6 +33,7 @@
     overflow: hidden;
     border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
     box-sizing: border-box;
+    position: relative;
     margin: 14px 0 12px;
 }
 .baul-imagen img {
@@ -43,92 +42,40 @@
     object-fit: cover;
     display: block;
 }
-.baul .side-bx {
+.baul-datos {
     position: absolute;
-    top: 16px;
-    right: -55px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 48%;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    z-index: 5;
-}
-.baul .info-item {
-    width: 46px;
-    height: 46px;
-    background: transparent;
-    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border-radius: 6px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-.baul .info-item.fecha {
-    cursor: default;
-}
-.baul .info-item .fecha {
-    font-size: 11px;
-    color: var(--grupo-color, var(--color-group, #5ec8d8));
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.1;
-}
-.baul .info-item .icono {
-    font-size: 17px;
-    color: var(--grupo-color, var(--color-group, #5ec8d8));
-    font-weight: bold;
-    line-height: 1;
-}
-.baul .info-item .popup {
-    display: none;
-    position: absolute;
-    right: 56px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(26,27,28,.95);
-    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
-    padding: 6px 10px;
-    z-index: 20;
-    white-space: nowrap;
-    color: #fff;
-    border-radius: 4px;
-    font-size: 11px;
-}
-.baul .info-item:hover .popup {
-    display: block;
-}
-.baul-enlaces {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 7px;
-    margin: 17px 0 16px;
 }
-.baul-enlaces a {
-    width: 46px;
-    height: 46px;
+.baul-dato {
+    width: 100%;
+    min-height: 43px;
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
+    padding: 7px 9px;
     box-sizing: border-box;
-    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
-    border-radius: 6px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--grupo-color, var(--color-group, #3a3a3a));
-    font-size: 17px;
-    background: transparent;
-    transition: none !important;
-    transform: none !important;
+    gap: 10px;
+    border-radius: 4px;
+    color: #fff;
 }
-.baul-enlaces a:hover {
-    background: transparent !important;
-    color: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
-    border-color: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
-    transform: none !important;
-    box-shadow: none !important;
+.baul-dato i {
+    flex: 0 0 27px;
+    text-align: center;
+    font-size: 21px;
+    color: #fff;
+}
+.baul-dato span {
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
 }
 .baul .separador {
     width: 100%;
@@ -149,7 +96,7 @@
     color: inherit;
     text-decoration: none;
 }
-.baul .firma .estrella {
+.baul .firma i {
     color: var(--grupo-color, var(--color-group, #5ec8d8));
     font-size: 16px;
 }
