@@ -137,6 +137,8 @@
 }
 
 
+
+
 .cronologia {
     width: 480px;
     max-width: 100%;
@@ -186,9 +188,18 @@
 }
 
 .cronologia-tema {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     font-size: 11px;
     line-height: 1.6;
-    padding: 3px 5px;
+    padding: 5px;
+}
+
+.cronologia-tema > i {
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+    font-size: 12px;
+    min-width: 12px;
 }
 
 .cronologia-tema a {
@@ -198,6 +209,13 @@
 
 .cronologia-tema a:hover {
     color: var(--grupo-color, var(--color-group, #3a3a3a));
+}
+
+.cronologia-usuario {
+    margin-left: auto;
+    font-size: 10px;
+    opacity: 0.65;
+    white-space: nowrap;
 }
 
 .cronologia-firma {
