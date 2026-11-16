@@ -1,0 +1,155 @@
+
+.baul {
+    width: 100%;
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    border-radius: 8px;
+    background: transparent;
+    position: relative;
+    overflow: visible;
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+}
+.baul-nombre {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 14px 5px 18px;
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+    text-transform: uppercase;
+}
+.baul-linea {
+    width: 100%;
+    height: 1px;
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
+    opacity: .45;
+    margin-bottom: 10px;
+}
+.baul-imagen {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    box-sizing: border-box;
+    margin: 14px 0 12px;
+}
+.baul-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.baul .side-bx {
+    position: absolute;
+    top: 16px;
+    right: -55px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 5;
+}
+.baul .info-item {
+    width: 46px;
+    height: 46px;
+    background: transparent;
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.baul .info-item.fecha {
+    cursor: default;
+}
+.baul .info-item .fecha {
+    font-size: 11px;
+    color: var(--grupo-color, var(--color-group, #5ec8d8));
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+}
+.baul .info-item .icono {
+    font-size: 17px;
+    color: var(--grupo-color, var(--color-group, #5ec8d8));
+    font-weight: bold;
+    line-height: 1;
+}
+.baul .info-item .popup {
+    display: none;
+    position: absolute;
+    right: 56px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(26,27,28,.95);
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    padding: 6px 10px;
+    z-index: 20;
+    white-space: nowrap;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 11px;
+}
+.baul .info-item:hover .popup {
+    display: block;
+}
+.baul-enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin: 17px 0 16px;
+}
+.baul-enlaces a {
+    width: 46px;
+    height: 46px;
+    box-sizing: border-box;
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a));
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--grupo-color, var(--color-group, #3a3a3a));
+    font-size: 17px;
+    background: transparent;
+    transition: none !important;
+    transform: none !important;
+}
+.baul-enlaces a:hover {
+    background: transparent !important;
+    color: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
+    border-color: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+.baul .separador {
+    width: 100%;
+    height: 1px;
+    background: var(--grupo-color, var(--color-group, #3a3a3a));
+    margin: 14px auto;
+    opacity: .4;
+}
+.baul .firma {
+    text-align: center;
+    font-size: 14px;
+    color: inherit;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    opacity: .9;
+}
+.baul .firma a {
+    color: inherit;
+    text-decoration: none;
+}
+.baul .firma .estrella {
+    color: var(--grupo-color, var(--color-group, #5ec8d8));
+    font-size: 16px;
+}
