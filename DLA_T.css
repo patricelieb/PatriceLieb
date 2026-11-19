@@ -165,7 +165,7 @@
   color: inherit;
   overflow: hidden;
   background: transparent;
-  border: 2px solid var(--grupo-color, #3a3a3a);
+  border: 1px solid var(--grupo-color, #3a3a3a);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   max-width: 320px;
@@ -176,7 +176,7 @@
   height: 260px;
   object-fit: cover;
   display: block;
-  border-radius: 6px 6px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 .carta-txt {
   max-height: 0;
