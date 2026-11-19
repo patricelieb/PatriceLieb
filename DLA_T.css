@@ -177,7 +177,6 @@
   object-fit: cover;
   display: block;
   border-radius: 6px 6px 0 0;
-  border-bottom: 2px solid var(--grupo-color, #3a3a3a);
 }
 .carta-txt {
   max-height: 0;
