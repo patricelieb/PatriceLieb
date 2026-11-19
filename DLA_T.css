@@ -158,7 +158,6 @@
 
 
 /* ===== PLANTILLA CARTA (con hover) ===== */
-/* ===== PLANTILLA CARTA ===== */
 .carta-bx {
   position: relative;
   box-sizing: border-box;
@@ -166,7 +165,7 @@
   color: inherit;
   overflow: hidden;
   background: transparent;
-  border: 1px solid var(--grupo-color, #3a3a3a);
+  border: 2px solid var(--grupo-color, #3a3a3a);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   max-width: 320px;
@@ -177,8 +176,8 @@
   height: 260px;
   object-fit: cover;
   display: block;
-  border-radius: 8px 8px 0 0;
-  border-bottom: 1px solid var(--grupo-color, #3a3a3a);
+  border-radius: 6px 6px 0 0;
+  border-bottom: 2px solid var(--grupo-color, #3a3a3a);
 }
 .carta-txt {
   max-height: 0;
