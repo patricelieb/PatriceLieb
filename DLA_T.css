@@ -243,31 +243,35 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 10px;
+  padding: 8px;
   box-sizing: border-box;
   container-type: inline-size;
 }
+
 .img-overlay .tit-bx,
 .img-overlay .subtit-bx {
   background: color-mix(in srgb, var(--grupo-color, var(--color-group, #5ec8d8)) 75%, transparent);
   color: #fff !important;
-  padding: 4px 12px;
+  padding: 3px 10px;
   border-radius: 4px;
   display: inline-block;
-  max-width: 95%;
+  max-width: 98%;
   white-space: nowrap;
   overflow: hidden;
-}
-.img-overlay .tit-bx {
-  margin: 0;
-  font-size: clamp(14px, 8cqi, 24px) !important;
-}
-.img-overlay .subtit-bx {
-  margin: 6px 0 0 0;
-  opacity: 1;
-  font-size: clamp(9px, 3.5cqi, 11px) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
+.img-overlay .tit-bx {
+  margin: 0;
+  font-size: clamp(12px, 6.5cqi, 20px) !important;
+}
+
+.img-overlay .subtit-bx {
+  margin: 5px 0 0 0;
+  opacity: 1;
+  font-size: clamp(8px, 3cqi, 10px) !important;
+}
 .wrapper-outer .card-bx {
   padding-top: 8px !important;
   padding-left: 10px !important;
