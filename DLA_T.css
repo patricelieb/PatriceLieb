@@ -245,19 +245,27 @@
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
+  container-type: inline-size;
 }
 .img-overlay .tit-bx {
   color: #fff !important;
   margin: 0;
-  font-size: 24px;
+  font-size: clamp(14px, 8cqi, 24px) !important;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
 }
 .img-overlay .subtit-bx {
   color: #fff !important;
   margin: 4px 0 0 0;
   opacity: .9;
+  font-size: clamp(9px, 3.5cqi, 11px) !important;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
 }
 
-/* Ajustes solo para Post 2 (selectores más específicos) */
+/* Ajustes solo para Post 2 */
 .wrapper-outer .card-bx {
   padding-top: 8px !important;
   padding-left: 10px !important;
