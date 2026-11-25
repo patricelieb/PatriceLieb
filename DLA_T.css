@@ -159,6 +159,7 @@
 /* ===== PLANTILLA CARTA (con hover) ===== */
 .carta-bx {
   position: relative;
+  text-align: justify;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   color: inherit;
