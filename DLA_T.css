@@ -296,10 +296,8 @@
   color: inherit;
   min-height: 100px;
   box-sizing: border-box;
-  text-align: left;          /* importante: no justify */
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .msg {
@@ -311,30 +309,24 @@
   word-wrap: break-word;
   position: relative;
   box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  margin-bottom: 8px;
+  clear: both;
 }
 
 .msg-received {
-  align-self: flex-start;
-  background: #e9e9eb;                    /* gris claro tipo recibido */
+  margin-right: auto;
+  margin-left: 0;
+  background: #e9e9eb;
   color: #000;
   border-bottom-left-radius: 4px;
+  text-align: left;
 }
 
 .msg-sent {
-  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 0;
   background: var(--grupo-color, var(--color-group, #5ec8d8));
   color: #fff;
   border-bottom-right-radius: 4px;
-}
-
-/* Opcional: hora pequeña debajo del mensaje */
-.msg .hora {
-  display: block;
-  font-size: 10px;
-  opacity: 0.65;
-  margin-top: 3px;
-  text-align: right;
-}
-.msg-received .hora {
   text-align: left;
 }
