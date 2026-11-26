@@ -1,12 +1,16 @@
-    text-align: center;
-    border-radius: 8px 8px 0 0;
+.tipo-top {
+    background: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
+    border: 1px solid var(--grupo-color, var(--color-group, #3a3a3a)) !important;
+    padding: 10px !important;
+    text-align: center !important;
+    border-radius: 8px 8px 0 0 !important;
 }
 
 .tipo {
     color: #fff !important;
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
 }
 .card-bx {
   position: relative;
@@ -280,21 +284,7 @@
   padding: 4px 18px 10px !important;
 }
 
-
 /* ===== CHAT / MENSAJES MÓVIL ===== */
-.txt-bx {
-  background: transparent;
-  border: none;
-  padding: 10px 6px;
-  font-size: 13.5px;
-  line-height: 1.55;
-  color: inherit;
-  min-height: 100px;
-  box-sizing: border-box;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 .msg {
   max-width: 78%;
   padding: 8px 12px;
