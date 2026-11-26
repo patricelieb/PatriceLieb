@@ -318,7 +318,7 @@
   text-align: left;
 }
 
-/* ===== TEMPLATE 3 ===== */
+/* ===== TEMPLATE 3 (sin anidados) ===== */
 .template3 {
   position: relative !important;
   max-width: 495px !important;
@@ -331,31 +331,31 @@
   font-family: Arial, Helvetica, sans-serif;
   color: inherit;
 }
-.template3 .tipo-top {
+.t3-tipo-top {
   background: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
   padding: 10px !important;
   text-align: center !important;
   border-radius: 8px 8px 0 0 !important;
 }
-.template3 .tipo {
+.t3-tipo {
   color: #fff !important;
   font-size: 9px !important;
   font-weight: 700 !important;
   letter-spacing: 2px !important;
 }
-.template3 .img-wrap {
+.t3-img-wrap {
   position: relative !important;
   width: 100% !important;
   height: 175px !important;
   overflow: hidden !important;
 }
-.template3 .img-wrap img.main {
+.t3-img-wrap img.main {
   width: 100% !important;
   height: 100% !important;
   object-fit: cover !important;
   display: block !important;
 }
-.template3 .info-corner {
+.t3-info-corner {
   position: absolute !important;
   bottom: 10px !important;
   right: 10px !important;
@@ -364,7 +364,7 @@
   gap: 4px !important;
   z-index: 5 !important;
 }
-.template3 .info-item {
+.t3-info-item {
   width: 46px !important;
   height: 46px !important;
   background: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
@@ -375,18 +375,18 @@
   border-radius: 6px !important;
   position: relative !important;
 }
-.template3 .info-item.fecha {
+.t3-info-item.fecha {
   cursor: default !important;
 }
-.template3 .info-item i,
-.template3 .info-item .fecha {
+.t3-info-item i,
+.t3-info-item .fecha {
   font-size: 11px !important;
   color: #fff !important;
   font-weight: bold !important;
   text-align: center !important;
   line-height: 1.1 !important;
 }
-.template3 .info-item .popup {
+.t3-info-item .popup {
   display: none !important;
   position: absolute !important;
   right: 56px !important;
@@ -401,16 +401,16 @@
   font-size: 11px !important;
   z-index: 20 !important;
 }
-.template3 .info-item:hover .popup {
+.t3-info-item:hover .popup {
   display: block !important;
 }
-.template3 .titulo-wrap {
+.t3-titulo-wrap {
   background: var(--grupo-color, var(--color-group, #3a3a3a)) !important;
   text-align: center !important;
   padding: 6px 12px 3px !important;
   margin: 0 !important;
 }
-.template3 .titulo-bx {
+.t3-titulo-bx {
   color: #fff !important;
   font-size: 16px !important;
   font-weight: 700 !important;
@@ -420,7 +420,7 @@
   background: transparent !important;
   line-height: 1.1 !important;
 }
-.template3 .subtitulo-bx {
+.t3-subtitulo-bx {
   color: #fff !important;
   font-size: 8px !important;
   font-style: italic !important;
@@ -431,17 +431,17 @@
   background: transparent !important;
   line-height: 1 !important;
 }
-.template3 .txt-bx {
+.t3-txt-bx {
   padding: 12px 28px !important;
   font-size: 13.5px !important;
   line-height: 1.55 !important;
   text-align: justify !important;
 }
-.template3 .firma {
+.t3-firma {
   text-align: center !important;
   margin: 10px 0 12px !important;
 }
-.template3 .firma i {
+.t3-firma i {
   color: var(--grupo-color, #5ec8d8) !important;
   font-size: 16px !important;
 }
