@@ -14,6 +14,9 @@
     font-weight: 700 !important;
     letter-spacing: 2px !important;
 }
+
+.tipo a {color: var(--fondo3) !important;}
+
 .card-bx {
   position: relative;
   box-sizing: border-box;
